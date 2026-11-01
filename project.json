@@ -1,0 +1,13 @@
+{
+  "name": "Deep Learning - Project Report",
+  "main_doc": "main.tex",
+  "engine": "xetex",
+  "checkpoints": {
+    "mode": "engine_dependencies"
+  },
+  "color": "#98f5e1",
+  "kind": "",
+  "exports": [],
+  "hidden": false,
+  "forked_from": null
+}
