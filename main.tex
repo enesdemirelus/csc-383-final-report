@@ -1,14 +1,89 @@
-\documentclass[11pt]{article}
+\documentclass{article}
 \usepackage[T1]{fontenc}
-\usepackage{hyperref}
+\usepackage{geometry}
 
-\title{Untitled}
-\author{}
+\geometry{
+  paperheight=11in,
+  paperwidth=8.5in,
+  top=0.5in,
+  bottom=1in,
+  left=0.75in,
+  right=0.75in
+}
+
+\input{math_commands.tex}
+
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\date{\today}
 
 \begin{document}
-\maketitle
+
+% ---------------- Title page ----------------
+\begin{titlepage}
+  \centering
+  \vspace*{1cm}
+
+  {\scshape\LARGE DePaul University \par}
+  \vspace{0.5cm}
+  {\scshape\Large Jarvis College of Computing and Digital Media\par}
+  \vspace{2cm}
+
+{\large CSC 383: Deep Learning, Final Project Report\par}  \vspace{0.75cm}
+  \rule{\linewidth}{0.5mm}\par
+  \vspace{0.4cm}
+  {\huge\bfseries Something in the Way: Deep Learning for Crater Detection and Crater-Aware Route Planning on Mars\par}
+  \vspace{0.4cm}
+  \rule{\linewidth}{0.5mm}\par
+  \vspace{2cm}
+
+  {\Large Enes Demirel\par}
+  \vspace{0.2cm}
+  {\large \texttt{mdemire1@depaul.edu}\par}
+  \vspace{0.3cm}
+  {\large Student ID: 2124555\par}
+
+  \vfill
+
+{\large Instructor\par}
+  \vspace{0.2cm}
+  {\large Vincent Kurtz\par}
+  \vspace{1.5cm}
+
+  {\large \today\par}
+\end{titlepage}
+
+\begin{abstract}
+\end{abstract}
 
 \section{Introduction}
-Write your \LaTeX{} here.
+\label{sec:introduction}
+
+\section{Related Work}
+\label{sec:related_work}
+
+\section{Background}
+\label{sec:background}
+
+\section{Methodology}
+\label{sec:methodology}
+
+\section{Numerical Experiments}
+\label{sec:numerical_experiments}
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+
+\appendix
+\section{Appendix}
+\label{sec:appendix}
 
 \end{document}
